@@ -1,0 +1,26 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 200px;
+  gap: 150px;
+}
+
+.home .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 10px black;
+}
+
+.home .card img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.add-to-cart-btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

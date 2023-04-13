@@ -1,0 +1,12 @@
+.home-container {
+    padding: 30px;
+  }
+  
+  .home-title {
+    color: green;
+  }
+  
+  .home-text {
+    line-height: 1.5;
+    text-align: justify;
+  }
